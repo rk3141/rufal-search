@@ -1,0 +1,25 @@
+@font-face {
+     font-family: sansation;
+     src: url('./sansation.ttf');
+}
+
+* {
+     font-family: sansation;
+}
+
+input {
+     border-radius: 25px;
+     background-color: #888;
+     border-color: greenyellow;
+}
+
+.link a {
+     text-decoration: none;
+     color: rgba(0,200,0,0.6);
+     display: block;
+     font-size: 140%;
+}
+.link {
+     color: #333;
+     font-size: 120%;
+}

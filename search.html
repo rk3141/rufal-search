@@ -1,0 +1,11 @@
+<html>
+     <head>
+     
+     </head>
+     <body>
+          <form method="GET">
+               <input id = "abcd" placeholder = "Search" onload="this.value = window.location.href.replace('/lookfor/','').replace('127.0.0.1','')">
+               <button type="button" onclick="window.location = '/lookfor/'+document.getElementById('abcd').value">Search</button>
+          </form>
+     </body>
+</html>
